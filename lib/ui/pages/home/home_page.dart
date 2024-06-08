@@ -67,8 +67,10 @@ class _HomePageState extends BaseStatefulState<HomePage> {
             '24',
             '18',
           ),
-          Image.asset(
-            'assets/img_home.png',
+          Expanded(
+            child: Image.asset(
+              'assets/img_home.png',
+            ),
           ),
           const WeatherTodays(),
         ],
