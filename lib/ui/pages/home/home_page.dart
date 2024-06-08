@@ -1,6 +1,5 @@
 import 'package:weather_bloc/export.dart';
 import 'package:weather_bloc/ui/pages/home/components/weather_todays.dart';
-import 'package:weather_bloc/utils/app_colors.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
